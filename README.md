@@ -6,6 +6,3 @@ Tech And Packages explored: Flask, Python, nltk, BeautifulSoup
 
 You can enter the URL in the text box and submit. If the URL is valid the App will display the frequency of each word in descending order otherwise error will be displayed.
 You can also download the data in the form of a CSV format.
-
-Screenshots:
-1. 
