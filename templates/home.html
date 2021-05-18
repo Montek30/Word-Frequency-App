@@ -31,6 +31,7 @@
         <div class="col-sm-6">
           {% if response %}
             <h1>Data</h1>
+            <h3>Url - {{ download_url }}</h3>
             <a href="http://127.0.0.1:5000/download" onclick="location.href=this.href+'?url={{ download_url }}';return false;">Download CSV</a>
             <br>
             <div id="results">
