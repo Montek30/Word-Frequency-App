@@ -1,13 +1,12 @@
+import requests, re
+import nltk, operator
 from flask import Flask, render_template, request, Response
 from flask_migrate import Migrate
-import requests, re
 from bs4 import BeautifulSoup
-import nltk, operator
 from collections import Counter
 from nltk.corpus import stopwords
 
 app = Flask(__name__)
-app.config.from_object('config')
 
 @app.route('/', methods=["GET","POST"])
 def home():
