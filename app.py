@@ -67,7 +67,7 @@ def download():
 	else:
 		return {"error":"Invalid URL!!!!!"}
 	
-	return Response(csv,mimetype="text/csv",headers={"Content-disposition":"attachment; filename=myplot.csv"})
+	return Response(csv,mimetype="text/csv",headers={"Content-disposition":"attachment; filename=word_count_file.csv"})
 
 
 if __name__ == '__main__':
