@@ -46,3 +46,5 @@ Instructions for a linux user:
     Werkzeug           2.0.0    
     zipp               3.4.1    
 
+3. In the root directory -> run command: FLASK_APP=app.py flask run
+4. Open the browser http://127.0.0.1:5000/ and play.
