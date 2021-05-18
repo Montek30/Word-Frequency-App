@@ -47,11 +47,7 @@ def data_process(url):
 				filtered_sentence.append(w)
 		raw_word_count = Counter(filtered_sentence)
 
-		response = sorted(
-	        raw_word_count.items(),
-	        key=operator.itemgetter(1),
-	        reverse=True
-	    )
+		response = sorted(raw_word_count.items(), key=operator.itemgetter(1), reverse=True)
 
 	return response
 
